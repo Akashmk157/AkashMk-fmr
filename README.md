@@ -1,7 +1,4 @@
 <h1>Coding output</h1>
-<h3>Day7 Assignment</h3>
-![Screenshot 2024-10-01 075316](https://github.com/user-attachments/assets/784bb508-414b-4249-b8ca-85cf1e83941c)
-
 <h3>Week2 Coding Assessment</h3>
 <img width="941" alt="week2-ass-qn1" src="https://github.com/user-attachments/assets/b01da174-174d-470e-a5ac-d0a116911773">
 <img width="945" alt="week2-ass-qn2" src="https://github.com/user-attachments/assets/114f7eec-45d2-410b-90f0-d58565568617">

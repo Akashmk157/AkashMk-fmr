@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ac Maintenance</title>
+    <style>
+        table{
+            margin-left:auto;
+            margin-right: auto;
+            font-size: 20px; 
+
+        }
+        body{
+            background-color: rgb(90, 90, 206);
+        }
+        thead{
+            background-color: rgb(218, 41, 70);
+            color: white;
+            font-display: bold;
+            font-weight: 300;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        th,td{
+            width: 60%;
+            height: 30px;
+        }
+        #submit, #reset{
+            background-color: rgb(96, 219, 84);
+            padding: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 8px;
+        }
+    </style>
+    
+</head>
+<body>
+    <form onsubmit="showAlert(); return false;">
+        <table class="table">
+            <thead>
+                <th colspan="2" class="heading">AC Maintanence Service</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="customername">Guest Name:</label></td>
+                    <td><input type="text" id="customername" name="customername" placeholder="Enter your name" required autofocus
+                        autocomplete="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender: </label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">female</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="MobileNumber">MobileNumber: </label></td>
+                    <td><input type="tel" id="MobileNumber" name="MobileNumber" placeholder="Enter your mobile number"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email ID:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter your email id" required
+                        autocomplete="email"></td>
+                </tr>
+    
+                <tr>
+                    <td><label>Address </label></td>
+                    <td><textarea placeholder="Enter your Address" rows="3" cols="20"></textarea></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="AcType">Card number: </label></td>
+                    <td><input type="text" id="Actype" name="TypeAc"></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="serviceType">Service Type: </label></td>
+                    <td><select name="type" id="serviceType">
+                        <option value="cleaning">Cleaning</option>
+                        <option value="Repair">Repair</option>
+                        <option value="gasrefill">Gas refill</option>
+                      </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="dateForAppointment">Birthday:</label></td>
+                    <td><input type="date" id="dateForAppointment" name="date" pattern="dd/mm/yyyy"></td>
+                </tr>
+                <tr>
+                    <td><label>Yearly maintenance</label></td>
+                    <td><input type="checkbox" required="true">Select if required</td>
+                </tr>
+    
+                <tr>
+                    <td><label>Duration in months from the previous service</label></td>
+                    <td><input type="range"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <input type="submit" id="submit" value="Submit">
+                        <input type="reset" id="reset" value="Clear">
+                    </td>
+                </tr>
+    
+            </tbody>
+        </table>
+    </form>
+    
+
+    <script type="text/javascript">
+        function showAlert(){
+            alert("Form submitted!");
+        }
+    </script>
+</body>
+</html>

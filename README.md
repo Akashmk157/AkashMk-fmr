@@ -1,4 +1,8 @@
 <h1>Coding output</h1>
+<h3>Day10 Coding Assessment</h3>
+<img width="953" alt="WebApage" src="https://github.com/user-attachments/assets/ecce250d-2737-4770-ae3d-a7f92d5a332f">
+<img width="949" alt="DSLL-remove" src="https://github.com/user-attachments/assets/711b3eb8-cb79-43c3-9b27-2eb3f92eccbd">
+
 <h3>Week2 Coding Assessment</h3>
 <img width="941" alt="week2-ass-qn1" src="https://github.com/user-attachments/assets/b01da174-174d-470e-a5ac-d0a116911773">
 <img width="945" alt="week2-ass-qn2" src="https://github.com/user-attachments/assets/114f7eec-45d2-410b-90f0-d58565568617">

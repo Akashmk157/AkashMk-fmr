@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book Form</title>
+</head>
+
+<body>
+    <h1>Simple Form</h1>
+    <h3>Form Fundamentals</h3>
+    <form id="bookForm">
+        <fieldset>
+            <legend>Customer Info</legend>
+            <label for="cusname">Name:</label>
+            <input type="text" id="cusname" name="cusname" placeholder="Enter your name" required autofocus
+                autocomplete="name"><br><br>
+
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Pattern: 234-567-8910"
+                pattern="\d{3}-\d{3}-\d{4}" required autocomplete="tel"><br><br>
+
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="mail" placeholder="Enter your email address" required
+                autocomplete="email"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Books</legend>
+            <input list="books" id="book" name="book" required>
+            <datalist id="books">
+                <option value="HTML5 - Bruce Lawson and Remy Sharp">
+                <option value="HTML5 - Up and Running - Mark Pilgrim">
+                <option value="Head First HTML5 Programming - Eric Freeman">
+                <option value="Mastering HTML, CSS and JavaScript - Laura Lemay">
+            </datalist>
+
+            <label for="quantity">Quantity (Maximum 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5" required><br><br>
+        </fieldset>
+
+        <button type="submit" name="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById('bookForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            alert('You have successfully submitted the Book Form');
+        });
+    </script>
+</body>
+
+</html>

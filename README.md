@@ -1,4 +1,10 @@
 <h1>Coding output</h1>
+<h3>Sql Assessment</h3>
+<img width="953" alt="sc1" src="https://github.com/user-attachments/assets/85cefb26-eb8c-4118-928f-de8dd11e81a7">
+<img width="953" alt="sc2" src="https://github.com/user-attachments/assets/4d5c7ecb-eb55-4517-8fb3-f917569de02f">
+<img width="953" alt="sc3" src="https://github.com/user-attachments/assets/1dcefdb0-9a83-48db-bc5b-6d2583ba8f10">
+
+
 <h3>Day10 Coding Assessment</h3>
 <img width="953" alt="WebApage" src="https://github.com/user-attachments/assets/ecce250d-2737-4770-ae3d-a7f92d5a332f">
 <img width="949" alt="DSLL-remove" src="https://github.com/user-attachments/assets/711b3eb8-cb79-43c3-9b27-2eb3f92eccbd">
